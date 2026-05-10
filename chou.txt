@@ -1,0 +1,62 @@
+start:bergerrive1,chourive1,chevrerive1,louprive1,
+finish:bergerrive2,chourive2,chevrerive2,louprive2,
+****
+action:berger traverse avec chevre rive1 vers rive2,
+preconds:bergerrive1,chevrerive1,chourive1,louprive1,
+add:bergerrive2,chevrerive2,
+delete:bergerrive1,chevrerive1,
+****
+action:berger traverse seul rive2 vers rive1 cas1,
+preconds:bergerrive2,chevrerive2,chourive1,louprive1,
+add:bergerrive1,
+delete:bergerrive2,
+****
+action:berger traverse avec loup rive1 vers rive2,
+preconds:bergerrive1,louprive1,chevrerive2,chourive1,
+add:bergerrive2,louprive2,
+delete:bergerrive1,louprive1,
+****
+action:berger traverse avec chevre rive2 vers rive1 cas1,
+preconds:bergerrive2,chevrerive2,louprive2,chourive1,
+add:bergerrive1,chevrerive1,
+delete:bergerrive2,chevrerive2,
+****
+action:berger traverse avec chou rive1 vers rive2,
+preconds:bergerrive1,chourive1,chevrerive2,louprive2,
+add:bergerrive2,chourive2,
+delete:bergerrive1,chourive1,
+****
+action:berger traverse seul rive2 vers rive1 cas2,
+preconds:bergerrive2,chevrerive2,chourive2,louprive2,
+add:bergerrive1,
+delete:bergerrive2,
+****
+action:berger traverse avec chevre rive1 vers rive2 cas2,
+preconds:bergerrive1,chevrerive1,chourive2,louprive2,
+add:bergerrive2,chevrerive2,
+delete:bergerrive1,chevrerive1,
+****
+action:berger traverse avec chou rive1 vers rive2 cas2,
+preconds:bergerrive1,chourive1,chevrerive2,louprive1,
+add:bergerrive2,chourive2,
+delete:bergerrive1,chourive1,
+****
+action:berger traverse avec chevre rive2 vers rive1 cas2,
+preconds:bergerrive2,chevrerive2,louprive1,chourive2,
+add:bergerrive1,chevrerive1,
+delete:bergerrive2,chevrerive2,
+****
+action:berger traverse avec loup rive1 vers rive2 cas2,
+preconds:bergerrive1,louprive1,chevrerive2,chourive2,
+add:bergerrive2,louprive2,
+delete:bergerrive1,louprive1,
+****
+action:berger traverse seul rive2 vers rive1 cas3,
+preconds:bergerrive2,chevrerive2,chourive2,louprive1,
+add:bergerrive1,
+delete:bergerrive2,
+****
+action:berger traverse avec chevre rive1 vers rive2 cas3,
+preconds:bergerrive1,chevrerive1,chourive2,louprive1,
+add:bergerrive2,chevrerive2,
+delete:bergerrive1,chevrerive1,
