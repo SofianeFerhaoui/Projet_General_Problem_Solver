@@ -72,5 +72,5 @@ gcc program.c -o gps
 
 ## Auteurs
 
-FERHAOUI Sofiane — 22512969
-MEDJOUDJ Haithem — 22514361
+FERHAOUI Sofiane
+MEDJOUDJ Haithem 
